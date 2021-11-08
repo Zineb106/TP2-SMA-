@@ -3,7 +3,7 @@ import java.util.Random;
 public class Environnement {
 String[][] grille = new String[50][50];
 	
-	void initializer(Environnement env) {
+	void initialiser(Environnement env) {
 		for (int i=0;i<50;i++) {
 			for(int j=0;j<50;j++) {
 				env.grille[i][j]="0";
