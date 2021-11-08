@@ -10,17 +10,11 @@ public class Main {
 		
 		Environnement env =new Environnement();
 		
-		env.initializer(env);
+		env.initialiser(env);
 		
 		
 		String[] memo=new String[10];
-		//for(int i =0;i<10;i++)
-			
-		//{   String[] value= {"A","B","0"};
-		  //  Random random = new Random();
-		    //int j = random.nextInt(3);
-			//memo[i]=value[j];
-			//}
+		
 		for(int i =0;i<10;i++)
 		
 		{
@@ -53,9 +47,7 @@ public class Main {
 	
 		
 		
-		//System.out.println(col);
-		//System.out.println(ow);
-		   
+	
 		 
 		 for(int i =1;i<25 ; i++)
 		 {
@@ -120,37 +112,9 @@ public class Main {
 		  
 		  agent20.Action(agent20, env);
 		  System.out.println();
-		  //agent1.Action(agent1, env);
-		  //System.out.println();
 		  
-		  //agent10.Action(agent10, env);
-		  //System.out.println();
-		  
-		  //agent8.Action(agent8, env);
-		  
-		  //System.out.println("contenue de la gille en cette position"+env.grille[agent2.row][agent2.col]);
-		  //System.out.println();
 		  
 		 }
-		 //agent2.Action(agent2);
-		 //agent3.Action(agent3);
-		 //agent4.Action(agent4);
-		 //agent5.Action(agent5);
-		 //agent6.Action(agent6);
-		 //agent7.Action(agent7);
-		 //agent8.Action(agent8);
-		 //agent9.Action(agent9);
-		 //agent10.Action(agent10);
-		 //agent11.Action(agent11);
-		 //agent12.Action(agent12);
-		 //agent13.Action(agent13);
-		 //agent14.Action(agent14);
-		 //agent15.Action(agent15);
-		 //agent16.Action(agent16);
-		 //agent17.Action(agent17);
-		 //agent18.Action(agent18);
-		 //agent19.Action(agent19);
-		 //agent20.Action(agent20);
 		 
 		 
 	
